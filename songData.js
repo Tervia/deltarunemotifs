@@ -3248,6 +3248,9 @@ const flowerMan = new Song("Flower Man",
 
         new MotifReference(Motifs.SIXFLOWERS, quickSec(flowerManBPM, 64), quickSec(flowerManBPM, 128)),
 
+        new MotifReference(Motifs.ASGORE, quickSec(flowerManBPM, 126), quickSec(flowerManBPM, 142), true),
+        new MotifReference(Motifs.ASGORE, quickSec(flowerManBPM, 158), quickSec(flowerManBPM, 174), true),
+
         new MotifReference(Motifs.DONTFORGET, quickSec(flowerManBPM, 144 + 32 - 2), quickSec(flowerManBPM, 144 + 48), true),
 
         new MotifReference(Motifs.FLOWEY, quickSec(flowerManBPM, 144 + 80), quickSec(flowerManBPM, 144 + 96), true),
@@ -3258,6 +3261,9 @@ const flowerMan = new Song("Flower Man",
         new MotifReference(Motifs.PETALDANCE, quickSec(flowerManBPM, 144 + 112 + 96), quickSec(flowerManBPM, 144 + 112 + 128), true),
 
         new MotifReference(Motifs.SIXFLOWERS, quickSec(flowerManBPM, 144 + 144 + 96), quickSec(flowerManBPM, 144 + 144 + 128 + 32)),
+
+        new MotifReference(Motifs.ASGORE, quickSec(flowerManBPM, 144 + 144 + 128 + 30), quickSec(flowerManBPM, 144 + 144 + 128 + 46), true),
+        new MotifReference(Motifs.ASGORE, quickSec(flowerManBPM, 144 + 144 + 128 + 62), quickSec(flowerManBPM, 144 + 144 + 128 + 78), true),
 
         new MotifReference(Motifs.DONTFORGET, quickSec(flowerManBPM, 144 + 144 + 144 + 64 - 2), quickSec(flowerManBPM, 144 + 144 + 144 + 80), true),
     ],
