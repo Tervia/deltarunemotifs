@@ -481,7 +481,7 @@ const bergentruckung = new Song("Bergentrückung",
     [Motifs.ASGORE],
     "AhnAielizjs",
     [
-        new MotifReference(Motifs.ASGORE, quickSec(bergentruckungOSTBPM, 0), quickSec(bergentruckungOSTBPM, 16)),
+        new MotifReference(Motifs.ASGORE, quickSec(bergentruckungOSTBPM, 0), quickSec(bergentruckungOSTBPM, 16), true),
         new MotifReference(Motifs.ASGORE, quickSec(bergentruckungOSTBPM, 16), quickSec(bergentruckungOSTBPM, 32), true),
     ],
     "", quickSec(bergentruckungOSTBPM, 40),
@@ -3145,10 +3145,10 @@ const flowerKing = new Song("Flower King",
     [Motifs.ASGORE],
     "GpvQ-jO3e4E",
     [
-        new MotifReference(Motifs.ASGORE, quickSec(flowerKingBPM, 22), quickSec(flowerKingBPM, 36), true),
-        new MotifReference(Motifs.ASGORE, quickSec(flowerKingBPM, 46), quickSec(flowerKingBPM, 60), true),
-        new MotifReference(Motifs.ASGORE, quickSec(flowerKingBPM, 70), quickSec(flowerKingBPM, 82), true),
-        new MotifReference(Motifs.ASGORE, quickSec(flowerKingBPM, 82), quickSec(flowerKingBPM, 108), true),
+        new MotifReference(Motifs.ASGORE, quickSec(flowerKingBPM, 22), quickSec(flowerKingBPM, 36)),
+        new MotifReference(Motifs.ASGORE, quickSec(flowerKingBPM, 46), quickSec(flowerKingBPM, 60)),
+        new MotifReference(Motifs.ASGORE, quickSec(flowerKingBPM, 70), quickSec(flowerKingBPM, 82)),
+        new MotifReference(Motifs.ASGORE, quickSec(flowerKingBPM, 82), quickSec(flowerKingBPM, 108)),
     ],
     "", quickSec(flowerKingBPM, 120),
     [],
@@ -3526,13 +3526,13 @@ const flowerMan = new Song("Flower Man",
     ]
 );
 
-const thatDayBPM = 132.5;
+const thatDayBPM = 133;
 const thatDay = new Song("That Day",
     [Motifs.ASGORE],
     "Kgxj0rE2pzU",
     [
-        new MotifReference(Motifs.ASGORE, 0, quickSec(thatDayBPM, 48), true),
-        new MotifReference(Motifs.ASGORE, quickSec(thatDayBPM, 97), quickSec(thatDayBPM, 144), true),
+        new MotifReference(Motifs.ASGORE, quickSec(thatDayBPM, 1), quickSec(thatDayBPM, 50)),
+        new MotifReference(Motifs.ASGORE, quickSec(thatDayBPM, 97), quickSec(thatDayBPM, 146)),
     ],
     "", quickSec(thatDayBPM, 200),
     [],
