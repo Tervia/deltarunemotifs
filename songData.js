@@ -489,6 +489,84 @@ const bergentruckung = new Song("Bergentrückung",
     [Contributors.TERVIA]
 );
 
+const youIdiotBPM = 49
+const youIdiot = new Song("You Idiot",
+    [Motifs.YOURBESTNIGHTMARE],
+    "MJE21c--duY",
+    [
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(youIdiotBPM, 0), quickSec(youIdiotBPM, 24)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(youIdiotBPM, 24), quickSec(youIdiotBPM, 27)),
+    ],
+    "", quickSec(youIdiotBPM, 30),
+    [],
+    [Contributors.TERVIA]
+);
+
+const yourBestNightmareBPM = 190
+const yourBestNightmare = new Song("Your Best Nightmare",
+    [Motifs.YOURBESTNIGHTMARE, Motifs.FLOWEY],
+    "DxxLzJDARbo",
+    [
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 0), quickSec(yourBestNightmareBPM, 24)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 24), quickSec(yourBestNightmareBPM, 48)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 72), quickSec(yourBestNightmareBPM, 96)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 96), quickSec(yourBestNightmareBPM, 120)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 120), quickSec(yourBestNightmareBPM, 144)),
+
+        new MotifReference(Motifs.FLOWEY, quickSec(yourBestNightmareBPM, 188), quickSec(yourBestNightmareBPM, 220)),
+        new MotifReference(Motifs.FLOWEY, quickSec(yourBestNightmareBPM, 240), quickSec(yourBestNightmareBPM, 272)),
+
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 276), quickSec(yourBestNightmareBPM, 292), true),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 292), quickSec(yourBestNightmareBPM, 308), true),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 308), quickSec(yourBestNightmareBPM, 324), true),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 324), quickSec(yourBestNightmareBPM, 340), true),
+
+        new MotifReference(Motifs.FLOWEY, quickSec(yourBestNightmareBPM, 384), quickSec(yourBestNightmareBPM, 416)),
+        new MotifReference(Motifs.FLOWEY, quickSec(yourBestNightmareBPM, 436), quickSec(yourBestNightmareBPM, 468)),
+
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 472), quickSec(yourBestNightmareBPM, 476)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 476), quickSec(yourBestNightmareBPM, 480)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 480), quickSec(yourBestNightmareBPM, 484)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 484), quickSec(yourBestNightmareBPM, 488)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 488), quickSec(yourBestNightmareBPM, 492)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 492), quickSec(yourBestNightmareBPM, 496)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 496), quickSec(yourBestNightmareBPM, 500)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 500), quickSec(yourBestNightmareBPM, 504)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 504), quickSec(yourBestNightmareBPM, 508)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 508), quickSec(yourBestNightmareBPM, 512)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 512), quickSec(yourBestNightmareBPM, 516)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 516), quickSec(yourBestNightmareBPM, 520)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 520), quickSec(yourBestNightmareBPM, 524)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 524), quickSec(yourBestNightmareBPM, 528)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 528), quickSec(yourBestNightmareBPM, 532)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 532), quickSec(yourBestNightmareBPM, 536)),
+
+        new MotifReference(Motifs.FLOWEY, quickSec(yourBestNightmareBPM, 572), quickSec(yourBestNightmareBPM, 604)),
+        new MotifReference(Motifs.FLOWEY, quickSec(yourBestNightmareBPM, 624), quickSec(yourBestNightmareBPM, 656)),
+
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 660), quickSec(yourBestNightmareBPM, 684)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 684), quickSec(yourBestNightmareBPM, 708)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(yourBestNightmareBPM, 708), quickSec(yourBestNightmareBPM, 732))
+    ],
+    "", quickSec(yourBestNightmareBPM, 760),
+    [],
+    [Contributors.TERVIA]
+);
+
+const burnInDespairBPM = 135
+const burnInDespair = new Song("Burn in Despair!",
+    [Motifs.YOURBESTNIGHTMARE],
+    "HAnJX4uudqY",
+    [
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(burnInDespairBPM, 0), quickSec(burnInDespairBPM, 8)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(burnInDespairBPM, 16), quickSec(burnInDespairBPM, 24)),
+        new MotifReference(Motifs.YOURBESTNIGHTMARE, quickSec(burnInDespairBPM, 32), quickSec(burnInDespairBPM, 40))
+    ],
+    "", quickSec(burnInDespairBPM, 48),
+    [],
+    [Contributors.TERVIA]
+);
+
 const madMewMewBPM = 120;
 const madMewMew = new Song("Mad Mew Mew",
     [Motifs.GHOSTFIGHTB],
