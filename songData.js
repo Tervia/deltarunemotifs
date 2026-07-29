@@ -489,6 +489,44 @@ const bergentruckung = new Song("Bergentrückung",
     [Contributors.TERVIA]
 );
 
+const asgoreOSTBPM = 114.844
+const asgore = new Song("ASGORE",
+    [Motifs.ASGORE, Motifs.HEARTACHEA],
+    "42kI2lT0x6U",
+    [
+        new MotifReference(Motifs.ASGORE, quickSec(asgoreOSTBPM, 0), quickSec(asgoreOSTBPM, 32)),
+        new MotifReference(Motifs.ASGORE, quickSec(asgoreOSTBPM, 32), quickSec(asgoreOSTBPM, 64)),
+
+        new MotifReference(Motifs.HEARTACHEA, quickSec(asgoreOSTBPM, 66), quickSec(asgoreOSTBPM, 82)),
+        new MotifReference(Motifs.HEARTACHEA, quickSec(asgoreOSTBPM, 82), quickSec(asgoreOSTBPM, 98)),
+        new MotifReference(Motifs.HEARTACHEA, quickSec(asgoreOSTBPM, 98), quickSec(asgoreOSTBPM, 114)),
+        new MotifReference(Motifs.HEARTACHEA, quickSec(asgoreOSTBPM, 114), quickSec(asgoreOSTBPM, 130)),
+        new MotifReference(Motifs.HEARTACHEA, quickSec(asgoreOSTBPM, 130), quickSec(asgoreOSTBPM, 146)),
+        new MotifReference(Motifs.HEARTACHEA, quickSec(asgoreOSTBPM, 146), quickSec(asgoreOSTBPM, 162)),
+        new MotifReference(Motifs.HEARTACHEB, quickSec(asgoreOSTBPM, 162), quickSec(asgoreOSTBPM, 172)),
+
+        new MotifReference(Motifs.HEARTACHEB, quickSec(asgoreOSTBPM, 176), quickSec(asgoreOSTBPM, 189)),
+        new MotifReference(Motifs.HEARTACHEA, quickSec(asgoreOSTBPM, 178), quickSec(asgoreOSTBPM, 182)),
+        new MotifReference(Motifs.HEARTACHEA, quickSec(asgoreOSTBPM, 186), quickSec(asgoreOSTBPM, 190)),
+        new MotifReference(Motifs.HEARTACHEB, quickSec(asgoreOSTBPM, 189), quickSec(asgoreOSTBPM, 194), true),
+        new MotifReference(Motifs.HEARTACHEA, quickSec(asgoreOSTBPM, 194), quickSec(asgoreOSTBPM, 198)),
+        new MotifReference(Motifs.HEARTACHEB, quickSec(asgoreOSTBPM, 194), quickSec(asgoreOSTBPM, 206)),
+        new MotifReference(Motifs.HEARTACHEA, quickSec(asgoreOSTBPM, 202), quickSec(asgoreOSTBPM, 206)),
+
+        new MotifReference(Motifs.DETERMINATION, quickSec(asgoreOSTBPM, 210), quickSec(asgoreOSTBPM, 274)),
+        new MotifReference(Motifs.DETERMINATION, quickSec(asgoreOSTBPM, 274), quickSec(asgoreOSTBPM, 278)),
+        new MotifReference(Motifs.DETERMINATION, quickSec(asgoreOSTBPM, 278), quickSec(asgoreOSTBPM, 282)),
+        new MotifReference(Motifs.DETERMINATION, quickSec(asgoreOSTBPM, 282), quickSec(asgoreOSTBPM, 285)),
+
+        new MotifReference(Motifs.DETERMINATION, quickSec(asgoreOSTBPM, 285), quickSec(asgoreOSTBPM, 294)),
+        new MotifReference(Motifs.UNDYNE, quickSec(asgoreOSTBPM, 286), quickSec(asgoreOSTBPM, 290)),
+        new MotifReference(Motifs.UNDYNE, quickSec(asgoreOSTBPM, 290), quickSec(asgoreOSTBPM, 294))
+    ],
+    "", quickSec(asgoreOSTBPM, 298),
+    [],
+    [Contributors.TERVIA]
+);
+
 const madMewMewBPM = 120;
 const madMewMew = new Song("Mad Mew Mew",
     [Motifs.GHOSTFIGHTB],
